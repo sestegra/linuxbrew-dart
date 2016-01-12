@@ -1,18 +1,18 @@
 # Dart for Homebrew
 
-This is the official [Dart][] tap for [homebrew][].
+This is the unofficial [Dart][] tap for [linuxbrew][].
 
-Mac users can use these formulae to easily install and update Dart SDK and
+Ubuntu users can use these formulae to easily install and update Dart SDK and
 Dartium. Both dev and stable channels are supported.
 
 ## Initial setup
 
-If you don't have homebrew, install it from their [homepage][homebrew].
+If you don't have linuxbrew, install it from their [homepage][linuxbrew].
 
 Then, add this tap:
 
 ```
-brew tap dart-lang/dart
+brew tap reyerstudio/linuxbrew-dart https://github.com/reyerstudio/linuxbrew-dart
 ```
 
 ## Installing
@@ -23,20 +23,13 @@ To install the Dart SDK:
 brew install dart
 ```
 
-Tip: Once installed, homebrew will print the path to the Dart SDK. Use this path to configure Dart support
+Tip: Once installed, brew will print the path to the Dart SDK. Use this path to configure Dart support
 in your IDE (like WebStorm).
 
 For web developers, we highly recommend Dartium and content shell:
 
 ```
 brew install dart --with-dartium --with-content-shell
-brew linkapps
-```
-
-To install Dartium to your Applications:
-
-```
-ditto /usr/local/opt/dart/Chromium.app/ /Applications/Dartium.app/
 ```
 
 ## Dev Releases
@@ -57,5 +50,5 @@ brew update
 brew upgrade dart
 ```
 
-[homebrew]: http://brew.sh/
+[linuxbrew]: http://linuxbrew.sh/
 [dart]: https://www.dartlang.org
