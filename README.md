@@ -2,7 +2,7 @@ Fork of [dart-lang/homebrew-dart](https://github.com/dart-lang/homebrew-dart)
 
 # Dart for Linuxbrew
 
-This is the unofficial [Dart][] tap for [linuxbrew][].
+This is an unofficial [Dart][] tap for [linuxbrew][].
 
 Ubuntu users can use these formulae to easily install and update Dart SDK and
 Dartium. Both dev and stable channels are supported.
