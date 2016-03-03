@@ -16,34 +16,34 @@ class Dart < Formula
   option 'with-dartium', 'Download and install Dartium -- Chromium with Dart'
 
   devel do
-    version '1.15.0-dev.4.0'
+    version '1.15.0-dev.5.0'
     if MacOS.prefer_64_bit?
-      url 'https://storage.googleapis.com/dart-archive/channels/dev/release/1.15.0-dev.4.0/sdk/dartsdk-linux-x64-release.zip'
-      sha256 '7840680f534fd621657e93b1de25d4ca3893415017aecab8436e4275c63aa137'
+      url 'https://storage.googleapis.com/dart-archive/channels/dev/release/1.15.0-dev.5.0/sdk/dartsdk-linux-x64-release.zip'
+      sha256 'ff39732316240af7383675240cd9ed4265ee7c16d6a2cb9e9d9de1b5f7ffa2ff'
     else
-      url 'https://storage.googleapis.com/dart-archive/channels/dev/release/1.15.0-dev.4.0/sdk/dartsdk-linux-ia32-release.zip'
-      sha256 '6b2fd44c2bf2e8bb20040a1febb4c0959544b1361bb154a1f782bdc5f0cf3097'
+      url 'https://storage.googleapis.com/dart-archive/channels/dev/release/1.15.0-dev.5.0/sdk/dartsdk-linux-ia32-release.zip'
+      sha256 '17e8de1f26ec0f3eafd63ca8ed35d140df1cb62c5ed91caa8a02fc251e92955c'
     end
 
     resource 'content_shell' do
-      version '1.15.0-dev.4.0'
+      version '1.15.0-dev.5.0'
       if MacOS.prefer_64_bit?
-        url 'https://storage.googleapis.com/dart-archive/channels/dev/release/1.15.0-dev.4.0/dartium/content_shell-linux-x64-release.zip'
-        sha256 '0d7005a313fd87943f61ec58ec283e1d2d878c161de14887c9e3674cadcdadf0'
+        url 'https://storage.googleapis.com/dart-archive/channels/dev/release/1.15.0-dev.5.0/dartium/content_shell-linux-x64-release.zip'
+        sha256 '596b299264ddeb1524b0c9254b05633b8b5dfea8fb0426de66b42e3cfabbd982'
       else
-        url 'https://storage.googleapis.com/dart-archive/channels/dev/release/1.15.0-dev.4.0/dartium/content_shell-linux-ia32-release.zip'
-        sha256 'cbdf875a690f0df5965647117398e5a2c15fdedae4420d9d75f73efdc0e1b0f4'
+        url 'https://storage.googleapis.com/dart-archive/channels/dev/release/1.15.0-dev.5.0/dartium/content_shell-linux-ia32-release.zip'
+        sha256 'ac730e9ed738c2a2cc4564f576e6ca6d73df4ed8e8b89a7552a59d97ad338123'
       end
     end
 
     resource 'dartium' do
-      version '1.15.0-dev.4.0'
+      version '1.15.0-dev.5.0'
       if MacOS.prefer_64_bit?
-        url 'https://storage.googleapis.com/dart-archive/channels/dev/release/1.15.0-dev.4.0/dartium/dartium-linux-x64-release.zip'
-        sha256 '733a3ef02db9214ff6092cabf267b8aa91d84ec687c0a94f4c6f531caef53427'
+        url 'https://storage.googleapis.com/dart-archive/channels/dev/release/1.15.0-dev.5.0/dartium/dartium-linux-x64-release.zip'
+        sha256 'bffd7b65f1392eac0ceffb646b74b1af8d5818702a8720afe4bf98e7666aee01'
       else
-        url 'https://storage.googleapis.com/dart-archive/channels/dev/release/1.15.0-dev.4.0/dartium/dartium-linux-ia32-release.zip'
-        sha256 'd7e6fdd137c2c03ef3caa0478b1ad52c6fc8f0c2ddc8e8d8d2e5d6c943dd3b69'
+        url 'https://storage.googleapis.com/dart-archive/channels/dev/release/1.15.0-dev.5.0/dartium/dartium-linux-ia32-release.zip'
+        sha256 '5e78292a42df9e2905799d562bb4ff3cf34bb5017f8cf7b7d5aed40efb88b6db'
       end
     end
   end
