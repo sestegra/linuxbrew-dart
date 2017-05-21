@@ -66,7 +66,7 @@ class Dart < Formula
       sha256 '11b5ce6d36a981374bf6180407b6d9ee09754716108a4d4f59f5687068497817'
     else
       url 'https://storage.googleapis.com/dart-archive/channels/stable/release/1.23.0/dartium/dartium-linux-ia32-release.zip'
-      sha256 'Service'
+      sha256 '&lt;?xml'
     end
   end
 
