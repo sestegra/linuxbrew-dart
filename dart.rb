@@ -3,13 +3,13 @@ require 'formula'
 class Dart < Formula
   homepage 'https://www.dartlang.org/'
 
-  version '1.24.1'
+  version '1.24.2'
   if MacOS.prefer_64_bit?
-    url 'https://storage.googleapis.com/dart-archive/channels/stable/release/1.24.1/sdk/dartsdk-linux-x64-release.zip'
-    sha256 '9823ac402a904f4c50ded602523064c25def54122f07ddf27c935abb639da4d4'
+    url 'https://storage.googleapis.com/dart-archive/channels/stable/release/1.24.2/sdk/dartsdk-linux-x64-release.zip'
+    sha256 'f774330896e60df918848075f3f1d9ada414bcce4fe81504e2646a79536eb333'
   else
-    url 'https://storage.googleapis.com/dart-archive/channels/stable/release/1.24.1/sdk/dartsdk-linux-ia32-release.zip'
-    sha256 'c0a041baa98019a9f303de149ce4d6e7b5c25e211609898496c0d574f186f96b'
+    url 'https://storage.googleapis.com/dart-archive/channels/stable/release/1.24.2/sdk/dartsdk-linux-ia32-release.zip'
+    sha256 '5b71cfe2331bea13227521c101bc7b3e8cfc8418c45615e6ea9dccf056bd323b'
   end
 
   option 'with-content-shell', 'Download and install content_shell -- headless Dartium for testing'
@@ -40,16 +40,16 @@ class Dart < Formula
   end
 
   resource 'content_shell' do
-    version '1.24.1'
-    url 'https://storage.googleapis.com/dart-archive/channels/stable/release/1.24.1/dartium/content_shell-linux-x64-release.zip'
-    sha256 '6a196004cbb1d2ff16d83cf58d40d7ed7fb1271264ee78aaa4ca5b71f483e501'
+    version '1.24.2'
+    url 'https://storage.googleapis.com/dart-archive/channels/stable/release/1.24.2/dartium/content_shell-linux-x64-release.zip'
+    sha256 '42ef09f2b2458db647e371ccfa3a50202200a5c61063c084c85211115d01c23f'
     end
   end
 
   resource 'dartium' do
-    version '1.24.1'
-    url 'https://storage.googleapis.com/dart-archive/channels/stable/release/1.24.1/dartium/dartium-linux-x64-release.zip'
-    sha256 'c02174a211829dda6d82330c281d6dc634feeed1736176aef51617832cf826b6'
+    version '1.24.2'
+    url 'https://storage.googleapis.com/dart-archive/channels/stable/release/1.24.2/dartium/dartium-linux-x64-release.zip'
+    sha256 '20144321b664d8ae13a9c674a667cb1ff7d7f0cdfb0f0897804e885e73b39f6e'
     end
   end
 
