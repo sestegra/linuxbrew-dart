@@ -35,7 +35,6 @@ class Dart < Formula
       version '1.25.0-dev.4.0'
       url 'https://storage.googleapis.com/dart-archive/channels/dev/release/1.25.0-dev.4.0/dartium/dartium-linux-x64-release.zip'
       sha256 '2b9041a18e9e0ed5ccef308d4fa395e59dc8043a37a8a1bb9777204ab8dd6d6f'
-      end
     end
   end
 
@@ -43,14 +42,12 @@ class Dart < Formula
     version '1.24.2'
     url 'https://storage.googleapis.com/dart-archive/channels/stable/release/1.24.2/dartium/content_shell-linux-x64-release.zip'
     sha256 '42ef09f2b2458db647e371ccfa3a50202200a5c61063c084c85211115d01c23f'
-    end
   end
 
   resource 'dartium' do
     version '1.24.2'
     url 'https://storage.googleapis.com/dart-archive/channels/stable/release/1.24.2/dartium/dartium-linux-x64-release.zip'
     sha256 '20144321b664d8ae13a9c674a667cb1ff7d7f0cdfb0f0897804e885e73b39f6e'
-    end
   end
 
   def install
