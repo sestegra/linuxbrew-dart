@@ -16,25 +16,25 @@ class Dart < Formula
   option 'with-dartium', 'Download and install Dartium -- Chromium with Dart'
 
   devel do
-    version '1.25.0-dev.4.0'
+    version '1.25.0-dev.6.0'
     if MacOS.prefer_64_bit?
-      url 'https://storage.googleapis.com/dart-archive/channels/dev/release/1.25.0-dev.4.0/sdk/dartsdk-linux-x64-release.zip'
-      sha256 '7f418ff9c426f8a7dc41ef2c29c8221293c99347b28d803a149008f6cb355534'
+      url 'https://storage.googleapis.com/dart-archive/channels/dev/release/1.25.0-dev.6.0/sdk/dartsdk-linux-x64-release.zip'
+      sha256 '196a8bbf0ca1f2d538a6d659d519e9e07cfa2ccc159e4bf7cf52eb865d11976b'
     else
-      url 'https://storage.googleapis.com/dart-archive/channels/dev/release/1.25.0-dev.4.0/sdk/dartsdk-linux-ia32-release.zip'
-      sha256 '9e5154d9fc43cc28952f323dde27675cdbc3aacc59d41cd1f85cababe021470f'
+      url 'https://storage.googleapis.com/dart-archive/channels/dev/release/1.25.0-dev.6.0/sdk/dartsdk-linux-ia32-release.zip'
+      sha256 '5ed62ad19f3c90a8a399a7a92048be450c96d4df9c3d667e03806e4f85b0a02f'
     end
 
     resource 'content_shell' do
-      version '1.25.0-dev.4.0'
-      url 'https://storage.googleapis.com/dart-archive/channels/dev/release/1.25.0-dev.4.0/dartium/content_shell-linux-x64-release.zip'
-      sha256 '6483386ef0e126c7d3f2a82972b36cc5cd415ee140fb656ee0bc82b356ac6a30'
+      version '1.25.0-dev.6.0'
+      url 'https://storage.googleapis.com/dart-archive/channels/dev/release/1.25.0-dev.6.0/dartium/content_shell-linux-x64-release.zip'
+      sha256 '74e8498e332ea6b9b260b13eb0148d1542169d033623e4e8d7bd517b41dbb0c4'
     end
 
     resource 'dartium' do
-      version '1.25.0-dev.4.0'
-      url 'https://storage.googleapis.com/dart-archive/channels/dev/release/1.25.0-dev.4.0/dartium/dartium-linux-x64-release.zip'
-      sha256 '2b9041a18e9e0ed5ccef308d4fa395e59dc8043a37a8a1bb9777204ab8dd6d6f'
+      version '1.25.0-dev.6.0'
+      url 'https://storage.googleapis.com/dart-archive/channels/dev/release/1.25.0-dev.6.0/dartium/dartium-linux-x64-release.zip'
+      sha256 '6c6724df698f7cd6f143e83e61394336762a11d5eee167f6d1493b4468384f6c'
     end
   end
 
