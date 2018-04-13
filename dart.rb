@@ -1,5 +1,3 @@
-require "formula"
-
 class Dart < Formula
   desc "The Dart SDK"
   homepage "https://www.dartlang.org/"
@@ -45,19 +43,25 @@ class Dart < Formula
     bin.write_exec_script Dir["#{libexec}/bin/{pub,dart?*}"]
 
     if build.with? "dartium"
+      if build.devel?
+        odie "dartium is no longer supported with --devel builds. Remove --with-dartium and try again."
+      end
       dartium_binary = "chrome"
       prefix.install resource("dartium")
       (bin+"dartium").write shim_script dartium_binary
     end
 
     if build.with? "content-shell"
+      if build.devel?
+        odie "content-shell is no longer supported with --devel builds. Remove --with-content-shell and try again."
+      end
       content_shell_binary = "content_shell"
       prefix.install resource("content_shell")
       (bin+"content_shell").write shim_script content_shell_binary
     end
   end
 
-  def shim_script target
+  def shim_script(target)
     <<~EOS
       #!/usr/bin/env bash
       exec "#{prefix}/#{target}" "$@"
