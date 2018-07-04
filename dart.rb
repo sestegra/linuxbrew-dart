@@ -12,13 +12,13 @@ class Dart < Formula
   end
 
   devel do
-    version "2.0.0-dev.66.0"
+    version "2.0.0-dev.67.0"
     if MacOS.prefer_64_bit?
-      url "https://storage.googleapis.com/dart-archive/channels/dev/release/2.0.0-dev.66.0/sdk/dartsdk-linux-x64-release.zip"
-      sha256 "a2b7ab6b683ae5ac33b4f8a00f1dd67a2119925260ef8d5dafdb3e5c9fa8910f"
+      url "https://storage.googleapis.com/dart-archive/channels/dev/release/2.0.0-dev.67.0/sdk/dartsdk-linux-x64-release.zip"
+      sha256 "358588c006d00b4d0f7dc7884e2e6df030632e2dddff7b8dcf3af05b6249da56"
     else
-      url "https://storage.googleapis.com/dart-archive/channels/dev/release/2.0.0-dev.66.0/sdk/dartsdk-linux-ia32-release.zip"
-      sha256 "76d6975986575fe2b13e76e8b429a04e623cf7fbb71180fbd86744cca7358aef"
+      url "https://storage.googleapis.com/dart-archive/channels/dev/release/2.0.0-dev.67.0/sdk/dartsdk-linux-ia32-release.zip"
+      sha256 "155da67ab4106e87f37cd7cecf40b319d0877b4eb4e0556cf658f801c2891ea9"
     end
   end
 
