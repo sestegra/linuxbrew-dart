@@ -2,23 +2,23 @@ class Dart < Formula
   desc "The Dart SDK"
   homepage "https://www.dartlang.org/"
 
-  version "2.1.1"
+  version "2.2.0"
   if MacOS.prefer_64_bit?
-    url "https://storage.googleapis.com/dart-archive/channels/stable/release/2.1.1/sdk/dartsdk-linux-x64-release.zip"
-    sha256 "b223f095e2eb836481b6d5041d23a627745f0b45f70f9ce31cc1fbc68e9a9f90"
+    url "https://storage.googleapis.com/dart-archive/channels/stable/release/2.2.0/sdk/dartsdk-linux-x64-release.zip"
+    sha256 "89777ceba8227d4dad6081c44bc70d301a259f3c2fdb4c1391961e376ec3af68"
   else
-    url "https://storage.googleapis.com/dart-archive/channels/stable/release/2.1.1/sdk/dartsdk-linux-ia32-release.zip"
-    sha256 "8c7d359f00f3569dffd9d02fc213cd895a5c3e524d386cf65c89c2373630ca7e"
+    url "https://storage.googleapis.com/dart-archive/channels/stable/release/2.2.0/sdk/dartsdk-linux-ia32-release.zip"
+    sha256 "d6d5edab837301bde218c97b074af8390d5dbe00a99961605159fa9e53609b81"
   end
 
   devel do
-    version "2.2.0-dev.2.1"
+    version "2.2.0"
     if MacOS.prefer_64_bit?
-      url "https://storage.googleapis.com/dart-archive/channels/dev/release/2.2.0-dev.2.1/sdk/dartsdk-linux-x64-release.zip"
-      sha256 "8a656f41df8601380f3317c66a99daa62667e132ead19414c81b98acc695d3b3"
+      url "https://storage.googleapis.com/dart-archive/channels/dev/release/2.2.0/sdk/dartsdk-linux-x64-release.zip"
+      sha256 "89777ceba8227d4dad6081c44bc70d301a259f3c2fdb4c1391961e376ec3af68"
     else
-      url "https://storage.googleapis.com/dart-archive/channels/dev/release/2.2.0-dev.2.1/sdk/dartsdk-linux-ia32-release.zip"
-      sha256 "8260a6ce5eaa4df2eeaf747dad5dab15a92f7f045e63b68914d1f0a23cb62ee2"
+      url "https://storage.googleapis.com/dart-archive/channels/dev/release/2.2.0/sdk/dartsdk-linux-ia32-release.zip"
+      sha256 "d6d5edab837301bde218c97b074af8390d5dbe00a99961605159fa9e53609b81"
     end
   end
 
